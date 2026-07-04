@@ -12,3 +12,6 @@ Aplikacja analityczna zbudowana w Streamlit na zaliczenie przedmiotu. Pobiera na
 1. Pobierz repozytorium.
 2. Zainstaluj paczki: `pip install -r requirements.txt`
 3. Wpisz w terminalu: `streamlit run app.py`
+
+## Link do aplikacji
+Projekt wdrożony online: https://bigdatadashboardzgloszenmiejskichnewyork.streamlit.app/
