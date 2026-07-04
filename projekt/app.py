@@ -10,7 +10,7 @@ st.markdown("Analiza prawdziwych zgłoszeń serwisowych (np. awarie, hałas) pob
 @st.cache_data
 def load_data():
     # Pobieranie 5000 najnowszych rozwiązanych zgłoszeń prosto z serwera
-    url = "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?$limit=5000&$where=closed_date IS NOT NULL"
+    url = "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?$limit=5000&$where=closed_date%20IS%20NOT%20NULL"
     df = pd.read_csv(url, parse_dates=["created_date", "closed_date"])
     
     # Krok czyszczenia danych (punktowane w zadaniu)
